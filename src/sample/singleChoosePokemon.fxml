@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="466.0" prefWidth="833.0" style="-fx-background-color: #6b6a68;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SingleChoosePokemon">
+<children>
+    <ImageView fitHeight="348.0" fitWidth="427.0" focusTraversable="true" layoutX="243.0" layoutY="52.0" opacity="0.1" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball.png" />
+        </image>
+    </ImageView>
+    <Button layoutX="386.0" layoutY="426.0" mnemonicParsing="false" onAction="#Reset" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: #6b6a68;" text="RESET" textFill="#ffb300" />
+    <Button layoutX="746.0" layoutY="426.0" mnemonicParsing="false" onAction="#BattleButtonPushed" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: #6b6a68;" text="BATTLE" textFill="#ffb300" />
+    <Button layoutX="14.0" layoutY="426.0" mnemonicParsing="false" onAction="#Go_Back" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: #6b6a68;" text="BACK" textFill="#ffb300" />
+    <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="25.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="127.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="220.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="322.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="413.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="505.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="604.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="710.0" layoutY="180.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@ball2.png" />
+        </image>
+    </ImageView>
+      <Label layoutX="14.0" layoutY="120.0" text="P1 : " textFill="#ffb300">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Label>
+      <Label layoutX="55.0" layoutY="35.0" text="Pick Your Pokemon" textFill="#ffb300">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="Check1" layoutX="53.0" layoutY="268.0" mnemonicParsing="false" />
+      <CheckBox fx:id="Check2" layoutX="147.0" layoutY="268.0" mnemonicParsing="false" />
+      <CheckBox fx:id="Check3" layoutX="248.0" layoutY="269.0" mnemonicParsing="false" />
+      <CheckBox fx:id="Check4" layoutX="350.0" layoutY="269.0" mnemonicParsing="false" />
+      <CheckBox fx:id="Check5" layoutX="441.0" layoutY="269.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="17.0" />
+      <CheckBox fx:id="Check6" layoutX="533.0" layoutY="268.0" mnemonicParsing="false" />
+      <CheckBox fx:id="Check7" layoutX="632.0" layoutY="269.0" mnemonicParsing="false" />
+      <CheckBox fx:id="Check8" disable="true" layoutX="746.0" layoutY="268.0" mnemonicParsing="false" opacity="0.0" />
+</children>
+</AnchorPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="466.0" prefWidth="833.0" style="-fx-background-color: #ffa41c;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SinglePickPokemon">
+    <children>
+        <Pane layoutX="12.0" layoutY="20.0" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;">
+            <children>
+                <Button fx:id="name1" mnemonicParsing="false" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                <ImageView fx:id="pokemon1" fitHeight="68.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="pkmHP1" layoutX="588.0" layoutY="25.0" text="Label" />
+            </children>
+        </Pane>
+        <Pane layoutX="12.0" layoutY="103.0" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;">
+            <children>
+                <Button fx:id="name2" mnemonicParsing="false" onAction="#pickPokemon2" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                <ImageView fx:id="pokemon2" fitHeight="68.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="pkmHP2" layoutX="589.0" layoutY="34.0" text="Label" />
+            </children></Pane>
+        <Pane layoutX="12.0" layoutY="181.0" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;">
+            <children>
+                <Button fx:id="name3" mnemonicParsing="false" onAction="#pickPokemon3" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                <ImageView fx:id="pokemon3" fitHeight="68.0" fitWidth="89.0" layoutX="-5.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="pkmHP3" layoutX="590.0" layoutY="26.0" text="Label" />
+            </children></Pane>
+        <Pane layoutX="12.0" layoutY="258.0" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;">
+            <children>
+                <Button fx:id="name4" mnemonicParsing="false" onAction="#pickPokemon4" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                <ImageView fx:id="pokemon4" fitHeight="68.0" fitWidth="89.0" layoutX="-4.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="pkmHP4" layoutX="591.0" layoutY="26.0" text="Label" />
+            </children></Pane>
+        <Pane layoutX="12.0" layoutY="333.0" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;">
+            <children>
+                <Button fx:id="name5" mnemonicParsing="false" onAction="#pickPokemon5" prefHeight="68.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                <ImageView fx:id="pokemon5" fitHeight="68.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="pkmHP5" layoutX="595.0" layoutY="26.0" text="Label" />
+            </children></Pane>
+        <Pane layoutX="12.0" layoutY="407.0" prefHeight="55.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;">
+            <children>
+                <Button fx:id="name6" mnemonicParsing="false" onAction="#pickPokemon6" prefHeight="55.0" prefWidth="809.0" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                <ImageView fx:id="pokemon6" fitHeight="55.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true" />
+                <Label fx:id="pkmHP6" layoutX="593.0" layoutY="19.0" text="Label" />
+            </children></Pane>
+        <Button layoutX="807.0" layoutY="1.0" mnemonicParsing="false" onAction="#Exit" prefHeight="7.0" prefWidth="24.0" style="-fx-background-color: #ff0000;" text="X" textFill="WHITE" />
+    </children>
+</AnchorPane>
+

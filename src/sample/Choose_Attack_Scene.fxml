@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="466.0" prefWidth="833.0" style="-fx-background-color: #6b6a68;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChooseAttackScene">
+    <children>
+        <Pane prefHeight="314.0" prefWidth="832.0">
+            <children>
+                <ImageView fitHeight="314.0" fitWidth="832.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@BattleStage1.png" />
+                    </image></ImageView>
+                <ImageView fx:id="image3" fitHeight="150.0" fitWidth="200.0" layoutX="113.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="image4" fitHeight="150.0" fitWidth="200.0" layoutX="552.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" />
+            <Pane layoutX="596.0" layoutY="256.0" prefHeight="33.0" prefWidth="221.0" style="-fx-background-color: #6b6a68;">
+               <children>
+                  <Rectangle fx:id="hpbar1" arcHeight="5.0" arcWidth="5.0" fill="#1fff48" height="25.0" layoutX="76.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+                  <ImageView fitHeight="150.0" fitWidth="310.0" layoutX="-60.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@P1HealthBar.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="P1namePlate" layoutX="-7.0" layoutY="-17.0" text="Label" />
+                  <Label fx:id="hplabel" layoutX="111.0" layoutY="17.0" text="Label" />
+               </children></Pane>
+            <Pane layoutX="60.0" layoutY="87.0" prefHeight="25.0" prefWidth="246.0" style="-fx-background-color: #6b6a68;">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff48" height="33.0" layoutX="100.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+                  <ImageView fitHeight="145.0" fitWidth="315.0" layoutX="-10.0" layoutY="-88.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@P2HealthBar.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="P2namePlate" layoutX="16.0" layoutY="-24.0" text="Label" />
+               </children>
+            </Pane>
+            </children>
+        </Pane>
+        <Pane layoutX="14.0" layoutY="305.0" prefHeight="137.0" prefWidth="545.0" style="-fx-background-color: #ffa41c;">
+            <children>
+                <Pane layoutX="9.0" layoutY="8.0" prefHeight="121.0" prefWidth="527.0" style="-fx-background-color: #6b6a68;">
+               <children>
+                  <Button fx:id="attack1" layoutX="93.0" layoutY="16.0" mnemonicParsing="false" onAction="#Attack1ButtonPushed" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                  <Button fx:id="attack2" layoutX="302.0" layoutY="16.0" mnemonicParsing="false" onAction="#Attack2ButtonPushed" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                  <Button fx:id="attack3" layoutX="93.0" layoutY="82.0" mnemonicParsing="false" onAction="#Attack3ButtonPushed" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                  <Button fx:id="attack4" layoutX="302.0" layoutY="82.0" mnemonicParsing="false" onAction="#Attack4ButtonPushed" style="-fx-background-color: #6b6a68;" text="Button" textFill="#ffa41c" />
+                  <Label fx:id="attackPP1" layoutX="196.0" layoutY="20.0" text="Label" textFill="#ffa41c" />
+                  <Label fx:id="attackPP3" layoutX="196.0" layoutY="86.0" text="Label" textFill="#ffa41c" />
+                  <Label fx:id="attackPP4" layoutX="421.0" layoutY="86.0" text="Label" textFill="#ffa41c" />
+                  <Label fx:id="attackPP2" layoutX="421.0" layoutY="20.0" text="Label" textFill="#ffa41c" />
+               </children></Pane>
+            </children></Pane>
+        <Pane layoutX="566.0" layoutY="305.0" prefHeight="137.0" prefWidth="246.0" style="-fx-background-color: #ffa41c;">
+            <children>
+                <Pane layoutX="8.0" layoutY="8.0" prefHeight="121.0" prefWidth="229.0" style="-fx-background-color: #6b6a68;">
+                    <children>
+                        <Button layoutX="46.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: #6b6a68;" text="FIGHT" textFill="#ffa41c" />
+                        <Button layoutX="46.0" layoutY="71.0" mnemonicParsing="false" onAction="#Pick_Pokemon" style="-fx-background-color: #6b6a68;" text="POKéMON" textFill="#ffa41c" />
+                        <Button layoutX="144.0" layoutY="71.0" mnemonicParsing="false" onAction="#RunButtonPushed" style="-fx-background-color: #6b6a68;" text="RUN" textFill="#ffa41c" />
+                        <Button layoutX="144.0" layoutY="24.0" mnemonicParsing="false" style="-fx-background-color: #6b6a68;" text="BAG" textFill="#5f584d" />
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

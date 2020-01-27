@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="466.0" prefWidth="833.0" style="-fx-background-color: #6b6a68;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SingleAttackOutComeScene">
+    <children>
+        <Pane prefHeight="305.0" prefWidth="832.0">
+            <children>
+                <ImageView fitHeight="314.0" fitWidth="832.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@BattleStage1.png" />
+                    </image></ImageView>
+                <ImageView fx:id="image5" fitHeight="150.0" fitWidth="200.0" layoutX="113.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="image6" fitHeight="150.0" fitWidth="200.0" layoutX="552.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" />
+                <Pane layoutX="596.0" layoutY="256.0" prefHeight="33.0" prefWidth="221.0" style="-fx-background-color: #6b6a68;">
+                    <children>
+                        <Rectangle fx:id="hpbar1" arcHeight="5.0" arcWidth="5.0" fill="#1fff48" height="25.0" layoutX="76.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+                        <ImageView fitHeight="150.0" fitWidth="310.0" layoutX="-60.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@P1HealthBar.png" />
+                            </image></ImageView>
+                        <Label fx:id="P2namePlate" layoutX="-7.0" layoutY="-17.0" text="Label" />
+                        <Label fx:id="hplabel" layoutX="119.0" layoutY="17.0" text="Label" />
+                    </children></Pane>
+                <Pane layoutX="60.0" layoutY="87.0" prefHeight="25.0" prefWidth="246.0" style="-fx-background-color: #6b6a68;">
+                    <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff48" height="33.0" layoutX="100.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                        <ImageView fitHeight="145.0" fitWidth="315.0" layoutX="-10.0" layoutY="-88.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@P2HealthBar.png" />
+                            </image></ImageView>
+                        <Label fx:id="P1namePlate" layoutX="16.0" layoutY="-24.0" text="Label" />
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+        <Pane layoutX="566.0" layoutY="305.0" prefHeight="137.0" prefWidth="246.0" style="-fx-background-color: #ffa41c;">
+            <children>
+                <Pane layoutX="8.0" layoutY="8.0" prefHeight="121.0" prefWidth="229.0" style="-fx-background-color: #6b6a68;">
+                    <children>
+                        <Button layoutX="46.0" layoutY="24.0" mnemonicParsing="false" onAction="#NextButtonPushed" style="-fx-background-color: #6b6a68;" text="NEXT" textFill="#ffa41c" />
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+        <Pane layoutX="14.0" layoutY="305.0" prefHeight="137.0" prefWidth="545.0" style="-fx-background-color: #ffa41c;">
+            <children>
+                <Pane layoutX="9.0" layoutY="8.0" prefHeight="121.0" prefWidth="527.0" style="-fx-background-color: #6b6a68;">
+                    <children>
+                        <Label fx:id="string1" layoutX="10.0" layoutY="38.0" text="Label" textFill="#ffa41c">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="string2" layoutX="10.0" layoutY="90.0" text="Label" textFill="#ffa41c">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="string3" layoutX="10.0" layoutY="64.0" text="Label" textFill="#ffa41c">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="string4" layoutX="10.0" layoutY="10.0" text="Label" textFill="#ffa41c">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
